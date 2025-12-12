@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* ✅ helps control layout overflow */
+}
+
+body {
+  background-color: rgb(0, 0 , 0); /* ✅ sets full-page background */
+  color: #ffffff;  
+  /* sets text color to white for contrast */
+  font-family: sans-serif;
+  line-height: 1.6;
+  border-top: #ffffff solid 18px;
+  border-bottom: #ffffff solid 18px;
+  padding: 30px; /* ✅ fixed invalid syntax: was "30px, 30px" */
+  /* just means left and right padding for the elements */
+}
+
+/* header{
+  width: 700px;
+} */
+
+header,       /*vidoes and images sections*/
+.main-header,  /* hero section, main header(h1) and nav links */
+.hero-sect,     /* hero section, main header(h1) and nav links */
+article,      /*article section, showcased work,  and text descrips*/
+aside,
+footer,
+p,                
+/*EVERYTHING BEHIND THE ELEMENTS TO GET TURNED BLACK*/
+.description {
+  background-color: rgb(0, 0, 0); /* ✅ ensures no white bleed-through */
+}
+
+header {
+  padding: 20px 40px;  /*20 px top and bottom, 40px left and right*/
+  margin-bottom: 60px;
+}
+
+
+nav{
+  text-align: center;
+}
+
+.hero-sect {
+  height: 140px;
+  background-size: cover; /* ✅ ensures full coverage of background image */
+  background-position: center;  /* ✅ centers the background image */
+}
+
+article {
+  padding: 20px 0; 
+  /* display: flex;
+
+  flex-direction: row; */
+}
+
+
+.Flex{
+  width: 400px;
+  margin-left: 0;
+  display: flex;
+  align-items: center;      
+  justify-content: space-between;
+  
+}
+
+
+.cvl {
+    text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.img-header {
+  display: inline-block;
+  margin: 0 auto;
+  width: 500px;
+  /* max-width: 300px; ✅ controls size */
+  height: auto;
+  padding: 0; /* ✅ removed excessive horizontal padding */
+}
+
+.vid{
+    display:inline-block;
+   width: 500px;
+    height: auto;
+   margin: 30px 0;
+}
+
+.vid-2{
+    display:inline-block;
+    width: 500px;
+    height: auto;
+    margin-top: 90px;
+   margin: 0 20px;
+}
+
+.description {
+  font-size: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+aside {
+  border-top: 5px solid #ffffff;
+  border-bottom: 5px solid #ffffff;
+  padding: 50px 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 20px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+a {
+  color: white; /* ✅ fixed selector: was a::links (invalid) */
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* a:hover{
+   */
+/* } */
+
+/* Had issues with padding, Links, Background colors, display inline blocks and stuff,
+margin and width and stuff,  */
+
+
+/* 
+Semi New Terms: Background size cover, background position center, box-sizing border-box
+max-width, height auto
+*/

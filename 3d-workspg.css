@@ -1,0 +1,131 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: #000000;
+       position: relative;
+}
+
+.flex-main{
+    background-color: black;
+    display: flex;
+    align-items: start;
+}
+
+
+header{
+    background-color: solid  #ff9a26;
+    padding: 25px 40px;
+    text-align: center;
+    color: white;
+
+}
+
+section{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.Photo-two{
+    padding: 25px 0;
+   margin-left: 50px;
+    display: inline-block;
+    width: 250px;
+    margin-right: 25px;
+}
+
+
+.Photo-three{
+    padding: 25px 0;
+    margin-left: 50px;
+    display: inline-block;
+    width: 250px;
+}
+
+
+.Photo-one{
+    margin-left: 50px;
+    /* margin-top: 30px; */
+    display: block;
+    width: 72%;
+}
+
+.description-how{
+    display: inline-block;
+     background-color: rgba(0, 0, 0, 0.548);
+  border-top: 5px solid #ffac27;
+  border-bottom: 5px solid #ffac27;
+  border-left: 1px solid #ffac27;
+  border-right: 1px solid #ffac27;
+ padding: 50px 30px;
+  width: 350px;
+ margin-bottom: 15px;
+ position:absolute;
+ top: 245px;
+left: 10px;
+color: white;
+}
+
+
+/* .Etal-border-break{
+    background-color: solid #ffac27;
+    width: 100%;
+} */
+
+
+.h1-first{
+  /* border-top: 5px solid white; */
+      background-color: #bb842a;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+
+
+
+h1{
+    /* border-top: 5px solid white; */
+      background-color: #92703b;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+}
+
+/* .second-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  padding: 1rem;
+} */
+
+.second-layout {
+  display: flex;               /* Use flexbox for side-by-side layout */
+  justify-content: center ;     /* Center the whole row horizontally */
+  gap: 3rem;                   /* Space between images */
+  padding: 1rem;               /* Optional: adds breathing room */
+}
+
+.Prop-one,
+.Prop-two,
+.Prop-three {
+  width: 260px;
+  height: auto;
+}
+
+
+.description-prop{
+
+    background-color: black;
+    padding: 25px 50px;
+}
+    
+    .text-for-prop{
+        color: white;
+        font-size: 20px;
+    }
